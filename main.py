@@ -56,6 +56,5 @@ while True:
         print("Ending chat session...")
         break
     except Exception as e:
-        breakpoint()
         tb = traceback.format_exc()
         print("Oops:", e, tb)
