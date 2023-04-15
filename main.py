@@ -6,10 +6,8 @@ from langchain import FAISS
 from langchain.chains import ConversationalRetrievalChain
 from langchain.chat_models import ChatOpenAI
 from langchain.document_loaders import WebBaseLoader
-
 # argument parsing logic
 from langchain.embeddings import OpenAIEmbeddings
-from langchain.memory import ConversationBufferMemory
 
 load_dotenv()
 parser = argparse.ArgumentParser(description="Configure documentation chat system")
